@@ -23,19 +23,16 @@ class Header extends Component {
             <div className="collapse navbar-collapse mb-0 pb-0" id="navbarSupportedContent" >
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
-                  {(this.props.type === "multiPage")? <Link to="/" className="nav-link link p-3">HOME</Link>: <a href="#home" className="nav-link link p-3">HOME</a>}
+                  <a href="#home" className="nav-link link p-3">HOME</a>
                 </li>
                 <li className="nav-item">
-                  {(this.props.type === "multiPage")? <Link to="/Features/" className="nav-link link p-3">FEATURES</Link>: <a href="#features" className="nav-link link p-3">FEATURES</a>}
+                  <a href="#features" className="nav-link link p-3">FEATURES</a>
                 </li>
                 <li className="nav-item">
-                  {(this.props.type === "multiPage")? <Link to="/Partners/" className="nav-link link p-3">PARTNERS</Link>: <a href="#partners" className="nav-link link p-3">PARTNERS</a>}
+                  <a href="#partners" className="nav-link link p-3">PARTNERS</a>
                 </li>
                 <li className="nav-item">
-                  {(this.props.type === "multiPage")? <Link to="/Contact/" className="nav-link link p-3">CONTACT</Link>: <a href="#contact" className="nav-link link p-3">CONTACT</a>}
-                </li>
-                <li className="nav-item">
-                  <button className="btn btn-dark mt-2 ml-2" onClick={this.props.change}>{(this.props.type === "multiPage")? 'Multi Page': 'Single Page'}</button>
+                 <a href="#contact" className="nav-link link p-3">CONTACT</a>
                 </li>
               </ul>
             </div>

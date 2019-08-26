@@ -6,7 +6,7 @@ class Slider extends Component {
     return (
       <div className="background jumbotron mb-5 mt-5 text-color" id="home">
         <div className="container h-100">
-          <div id="carouselExampleIndicators" className="carousel slide h-100">
+          <div id="carouselExampleIndicators" className="carousel slide h-100" data-ride="carousel">
             <div className="carousel-inner" role="listbox">
               <div className="carousel-item active w-100 mt-5">
                 <img src={require('../assets/images/Hubover.png')} alt="slider-img-1" className="huboverImg"/>
