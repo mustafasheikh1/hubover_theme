@@ -161,7 +161,7 @@ nav {
 
 .img-responsive{
   max-width: 100%;
-  filter: grayscale(80%);
+  /* filter: grayscale(80%); */
   height: auto;
 }
 
