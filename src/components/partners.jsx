@@ -6,8 +6,8 @@ class Partners extends Component {
 		return (
 			<div className="container" id="partners">
 				<div className="row w-110 pl-4">
-					<h1 className="display-5 font-weight-bold w-100 text-center mt-5">Partners</h1>
-					<p className="lead text-center w-100">Kind words from our valuable customers</p>
+					<h1 className="display-5 font-weight-bold w-100 text-center mt-5">Team Members</h1>
+					<p className="lead text-center w-100">Get to know of our term</p>
 					<div className="row w-100">
 						<div className="col-lg-4 col-sm-12">
 							<div className="img-thumbnail card-border">
@@ -52,13 +52,12 @@ class Partners extends Component {
 
 					</div>
 				</div>
-				<div className="row my-5">
+				{/* <div className="row my-5">
 					<img src={require('../assets/images/logo1.jpg')} alt="logo1" className="col-lg-3 col-sm-12 px-5" />
 					<img src={require('../assets/images/logo2.jpg')} alt="logo2" className="col-lg-3 col-sm-12 px-5" />
 					<img src={require('../assets/images/logo3.jpg')} alt="logo3" className="col-lg-3 col-sm-12 px-5" />
 					<img src={require('../assets/images/logo4.jpg')} alt="logo4" className="col-lg-3 col-sm-12 px-5" />
-					{/* <img src="../../assets/images/logo5.jpg" alt="logo5" className="col-lg-3 col-sm-12 px-5" /> */}
-				</div>
+				</div> */}
 			</div>
 		);
 	}
