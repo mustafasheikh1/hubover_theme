@@ -11,6 +11,10 @@ import {
 } from './components/index';
 
 class App extends Component {
+  constructor(props){
+    super(props);
+    document.title = "Hubover"
+  }
   render() {
     return (
       <React.Fragment>
